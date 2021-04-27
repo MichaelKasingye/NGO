@@ -1,0 +1,82 @@
+.orange{
+  color: #F39C12;
+}
+.vgrey{
+  color: #8F8F90;
+}
+.modalBtn{
+  background-color: #BB2D3B;
+  color: #fff;
+  font-weight: bold;
+}
+.doneButton{
+  font-weight: bold;
+  background: #fff;
+  color: #8F8F90;
+}
+.allDoneButton{
+  font-weight: bold;
+  background: #fff;
+  color: #8F8F90;
+}
+.modalContact{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.items{
+  /* border: 2px solid red; */
+
+  width: 12rem;
+  margin: 5px;
+}
+.box{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 5px;
+}
+.Cardbox{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 5px;
+}
+.modalCardItem{
+  width:13rem;
+}
+
+.modalCardItem:hover{
+  transform: scale(1.03);
+}
+.modalCardItem:active{
+  transform: scale(0.9);
+}
+.heading{
+  /* border: 2px solid red; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+
+}
+
+.heading p{
+  border: 2px solid rgba(7, 0, 0, 0.411);
+background: #000;
+color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start; 
+  /* text-align: left; */
+  width: 20%;
+
+}

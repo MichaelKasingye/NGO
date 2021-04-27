@@ -1,0 +1,98 @@
+.cards{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.introCards{
+  /* border: 2px solid red; */
+
+  width: 18rem;
+  /* background: #212529; */
+  box-shadow: rgba(201, 201, 201, 0.137) 0px 3px 8px;
+
+}
+.heightAdjust{
+  /* border: 2px solid red; */
+
+  height: 15rem;
+  margin: 9px;
+  box-shadow: rgba(201, 201, 201, 0.288) 0px 3px 8px;
+}
+.productCard{
+  width: 18rem;
+  /* background: #21252900; */
+  /* border: 1px solid #95afc0; */
+ 
+}
+.card{
+  /* height: 20rem; */
+  margin: 5px;
+/* border: 1px solid red; */
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.orange{
+  color: #F39C12;
+}
+.vgrey{
+  color: #8F8F90;
+}
+.cardButton{
+/* margin-bottom: 10px; */
+margin-left: 5px;
+/* border: 3px solid red; */
+max-height: 100%;
+}
+.image{
+  object-fit: cover;
+/* border: 3px solid red; */
+display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  padding: 3px;
+  width: 100%;
+  
+}
+.Iconimage{
+  object-fit: cover;
+/* border: 3px solid red; */
+display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 5rem;
+  padding: 3px;
+  width: 100%;
+  
+}
+.Cardbox{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 5px;
+}
+.icon{
+  /* border: 2px solid red; */
+  font-size: 4rem;
+/* height: 15rem; */
+}
+.body{
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+.body p{
+  /* border: 2px solid blue; */
+ width: 15rem;
+}

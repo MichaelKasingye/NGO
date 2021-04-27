@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "bootstrap": "^5.0.0-beta3",
+    "contentful": "^8.2.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "next": "10.0.9",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "reactstrap": "^8.9.0"
+  }
+}
