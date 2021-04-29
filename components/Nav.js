@@ -52,8 +52,10 @@ function Navi() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <DrawerMenuUser />
+      {/* <h3>top</h3> */}
       <Divider />
-      <DrawerMenu />
+      {/* <DrawerMenu /> */}
+      <h3>bottom</h3>
     </div>
   );
 
