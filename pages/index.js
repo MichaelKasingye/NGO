@@ -11,8 +11,6 @@ import MidSection from "../components/MidSection";
 import CardSection from "../components/CardsSection";
 import Us from "../components/Us";
 import Stories from "../components/Stories";
-import 'animate.css/animate.css'
-
 import home from "../styles/Home.module.css";
 
 export default function Home() {
