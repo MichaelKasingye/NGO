@@ -29,10 +29,8 @@ function search(e) {
 function Navi() {
   const classes = useStyles();
   const [state, setState] = React.useState({
-      top: false,
-      left: false, 
-      bottom: false,
-      right: false,
+    left: false, 
+     
   });
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -79,7 +77,7 @@ function Navi() {
           </ul>
         </div>
         <div className={navStyles.menuIcon}>
-          {["Menu"].map((anchor) => (
+          {['left'].map((anchor) => (
             <React.Fragment key={anchor}>
               <Button onClick={toggleDrawer(anchor, true)}>
                 {" "}
